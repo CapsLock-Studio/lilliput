@@ -6,7 +6,7 @@ package lilliput
 // #cgo linux CXXFLAGS: -I/usr/local/include -I/usr/local/include/opencv4
 // #cgo LDFLAGS:  -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -ljpeg -lpng -lwebp -lippicv -lz
 // #cgo linux LDFLAGS: -L/usr/local/lib -L/usr/local/lib/opencv4/3rdparty
-// #include "opencv.hpp"
+// #include <opencv2/opencv.hpp>
 import "C"
 
 import (
