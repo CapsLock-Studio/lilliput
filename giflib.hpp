@@ -1,7 +1,7 @@
 #ifndef LILLIPUT_GIFLIB_HPP
 #define LILLIPUT_GIFLIB_HPP
 
-#include "opencv.hpp"
+#include <opencv2/opencv.hpp>
 
 #ifdef __cplusplus
 extern "C" {

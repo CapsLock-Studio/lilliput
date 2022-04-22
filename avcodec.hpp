@@ -1,7 +1,7 @@
 #ifndef LILLIPUT_AVCODEC_HPP
 #define LILLIPUT_AVCODEC_HPP
 
-#include "opencv.hpp"
+#include <opencv2/opencv.hpp>
 
 #ifdef __cplusplus
 extern "C" {
